@@ -31,7 +31,8 @@ const Directory = () => {
           </div>
           <div
           className="item"
-          style={{ backgroundImage: `url(${ShopMen})`}}>
+          style={{ backgroundImage: `url(${ShopMen})`, 
+          marginLeft: "10px"}}>
               <a href="/">Shop Men's</a>
           </div>
       </div>

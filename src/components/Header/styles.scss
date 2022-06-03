@@ -9,13 +9,29 @@
         max-width: 1250px;
         position: relative;
         margin: 0 auto;
+        display: flex;
+        justify-content: space-between;
 
         .logo {
-            position: absolute;
-            top: 50%;
-            left: 10px;
-            transform: translateY(-50%);
+            // position: absolute;
+            // top: 50%;
+            // left: 10px;
+            // transform: translateY(-50%);
+            color: #333;
             font-family: 'Abril Fatface', cursive;
+            a{
+                color: #333;
+                font-size: 2rem;
+            }
+        }
+        .cta li{
+            list-style-type: none;
+            a{
+                color: #333;
+                font-size: 1.6rem;
+                text-decoration: none;
+                text-transform: uppercase;
+            }
         }
     }
 }
