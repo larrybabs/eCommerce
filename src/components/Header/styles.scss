@@ -1,4 +1,23 @@
+@import url('https://fonts.googleapis.com/css2?family=Abril+Fatface&display=swap');
+
 .header{
     height: 6.5rem;
     box-shadow: 0 2px 2px 0 rgba(0,0,0,0.1);
+
+    .wrapper{
+        height: 100%;
+        max-width: 1250px;
+        position: relative;
+        margin: 0 auto;
+
+        .logo {
+            position: absolute;
+            top: 50%;
+            left: 10px;
+            transform: translateY(-50%);
+            font-family: 'Abril Fatface', cursive;
+        }
+    }
 }
+
+
