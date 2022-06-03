@@ -2,10 +2,27 @@ import React from 'react';
 import './styles.scss'
 import ShopMen from './../../assets/ShopMen.jpg'
 import ShopWomen from './../../assets/ShopWomen.jpg'
+import { motion } from "framer-motion"
 
 const Directory = () => {
+
+  const container = {
+    hidden: { opacity: 0 },
+    show: {
+      opacity: 1,
+      transition: {
+        delayChildren: 0.3
+      }
+    }
+  }
+
   return (
-    <div className="directory">
+    <motion.div 
+    variants={container}
+    initial="hidden"
+    animate="show" 
+    className="directory">
+
       <div className="wrapper">
           <div
           className="item"
@@ -18,7 +35,7 @@ const Directory = () => {
               <a href="/">Shop Men's</a>
           </div>
       </div>
-    </div>
+    </motion.div>
   );
 }
 
