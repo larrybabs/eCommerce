@@ -1,7 +1,7 @@
 import React from 'react';
 import './styles.scss'
 import ShopMen from './../../assets/ShopMen.jpg'
-import ShopWomen from './../../assets/ShopWomen.jpg'
+import ShopWomen from './../../assets/ShopWomenB.jpg'
 import { motion } from "framer-motion"
 
 const Directory = () => {

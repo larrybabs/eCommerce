@@ -3,7 +3,10 @@
 .header{
     height: 6.5rem;
     box-shadow: 0 2px 2px 0 rgba(0,0,0,0.1);
-
+    // position: fixed;
+    // z-index: 100;
+    // width: 100%;
+    // background-color: rgb(255, 255, 255);
     .wrapper{
         height: 100%;
         max-width: 1250px;
