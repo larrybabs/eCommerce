@@ -29,6 +29,11 @@
         }
         .cta li{
             list-style-type: none;
+            display: inline-block;
+            margin-left: 1.5rem;
+            &:first-child{
+                margin: 0;
+            }
             a{
                 color: #333;
                 font-size: 1.6rem;

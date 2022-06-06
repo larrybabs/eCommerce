@@ -4,6 +4,7 @@ import Registration from "./pages/Registration";
 import { Routes, Route } from "react-router-dom";
 import MainLayout from "./layout/MainLayout";
 import HomepageLayout from "./layout/HomepageLayout";
+import Login from "./pages/Login";
 
 function App() {
   return (
@@ -23,6 +24,15 @@ function App() {
           element={
             <MainLayout>
               <Registration />{" "}
+            </MainLayout>
+          }
+        />
+      
+        <Route
+          path="/login"
+          element={
+            <MainLayout>
+              <Login />{" "}
             </MainLayout>
           }
         />
